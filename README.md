@@ -21,4 +21,4 @@ git
 
 1.  Install dependencies using (`npm install`)
 2.  Start the server using (`npm run start`)
-3.  URI: mongodb+srv://admin:admin123@cluster0.bscd2nb.mongodb.net/?retryWrites=true&w=majority
+3.  URI: mongodb
