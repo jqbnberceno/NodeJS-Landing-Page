@@ -1,0 +1,28 @@
+ <!-- form handling -->
+ <form action ="/api/users" method="POST" id="add_user">
+    <div class="new_user">
+        <div class="form-group">
+            <label for="name" class="text-light">Listing Name</label>
+            <input type="hidden" name="id" value="">
+            <input type="text" name="name" value="" placeholder="Starbucks">
+        </div>
+        <div class="form-group">
+            <label for="upl" class="text-light">Uploader</label>
+            <input type="text" name="uploader" value="" placeholder="Zinidane3000">
+        </div>
+        <div class="form-group">
+            <label for="sd" class="text-light">Short Description</label>
+            <input type="text" name="description" value="" placeholder="Modern Cafe">
+        </div>
+
+        <div class="form-group">
+            <label for="ad" class="text-light">Address</label>
+            <input type="text" name="address" value="" placeholder="112 Sampaloc St.">
+        </div>
+
+        <div class="form-group">
+            <button type="submit" class="btn text-dark update">Save</button>
+        </div>
+
+    </div>
+</form>
